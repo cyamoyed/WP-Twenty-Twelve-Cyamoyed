@@ -311,7 +311,7 @@ function the_crumbs() {
     'seperator'   =>  ' / ',
     'id'          =>  'breadcrumb',
     'classes'     =>  'breadcrumb',
-    'home_title'  =>  esc_html__( '⚐ Home', '' )
+    'home_title'  =>  esc_html__( '首页', '' )
   );
   $sep  = '<li class="seperator">'. esc_html( $defaults['seperator'] ) .'</li>';
   // Start the breadcrumb with a link to your homepage
